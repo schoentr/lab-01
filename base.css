@@ -4,11 +4,10 @@ div {
 div {
   vertical-align: middle;
   text-align: center;
-  /* vertical-align: middle; */
-  /* margin:50% auto; */
+
 }
 body{
   max-width: 960px;
-  /* margin: 0 auto; */
+
 }
 

@@ -1,92 +1,76 @@
 body{
-  width:100%;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
 }
-/* @media (max-width:767px){
-  #i{
-    line-height: 80px;
-    height:80px;
-    clear:both;
-  }
-  #a {
-    height:75px;
-    line-height: 75px;
-  }
-  #b{
-    height:150px;
-    line-height:150px;
-  }
-  #c,#d {
-    height:125px;
-    line-height:125px;
-  }
-  #e, #f, #g, #h {
-    width: 50%;
-    float:left;
-    height: 250px;
-    line-height: 250px;
-  }
-  
-} */
-
-/* @media (min-width: 768px) { */
-  #ab{
-    width:100%;
+ @media (max-width:767px){
+  body{
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    flex-direction: column; 
+  } 
   #a{
-    /* flex:flex-grow; */
-    align-self: auto;
-    height:100px;
-    line-height:100px;
-    width: 100%;;
+     
+     height: 75px;
+   }
 
-  }
-  #cd{
-    width:79%;
-    height: 200px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-  }
-  #e-h{
-    width:79.16%; display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  #b{
-    height:600px;
-    line-height:600px;
-    width:20.83%;
-    /* float:left; */
-
-  }
-  #c, #d {
-    height:200px;
-    line-height:200px;
-    float:left;
-    width:39.583%;
-  }
- 
-  #e, #f, #g, #h {
-    width:19.79%;
-    float:left;
-    height: 250px;
-    line-height:250px;
-  }
-
-  #i {
-    width:79.16%;
-    float:left;
-    height: 150px;
-    line-height:150px;
-  }
-} 
+   #b{
+     height:150px;
+   }
+   #c,#d{
+     height:125px;
+   }
+   #e,#f,#g,#h{
+     height:250px;
+     width:50%;
+   }
+   #e-f, #g-h{
+     display:flex;
+     flex-direction: row;
+   }
+   #i{
+     height:80px;
+   }
+ }
+ @media (min-width: 768px) {
+   body{
+     display:flex;
+     flex-direction: column;
+   }
+   #a{
+     height: 100px;
+     width: 100%;
+     
+   }
+   #container{
+     display: flex;
+     flex-direction: row;
+   }
+   #con{
+     width :80%;
+     display:flex;
+     flex-direction: column;
+   }
+   #cd{
+     display:flex;
+     flex-direction: row;
+     width:100%;
+   }
+   #b{
+     width:20%;
+     height:600px;
+   }
+   #c,#d{
+     height: 200px;
+     width:50%;
+   }
+   #e-h, #e-f,#g-h{
+     display:flex;
+     flex-direction: row;
+     width: 100%;
+   }
+   #e,#f, #g,#h{
+     height:250px;
+          width: 50%;
+   }
+   #i{
+     height:150px;
+  
+   }
+ }
