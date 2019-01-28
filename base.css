@@ -1,0 +1,13 @@
+div {
+  outline:1px solid black;
+}
+div {
+  vertical-align: middle;
+  text-align: center;
+
+}
+body{
+  max-width: 960px;
+
+}
+
